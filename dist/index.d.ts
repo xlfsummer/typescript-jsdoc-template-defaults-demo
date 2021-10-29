@@ -1,5 +1,2 @@
-/** @template [T=object] */
-export class Cache {
-    /** @param {T} initial */
-    constructor(T: any);
-}
+/** @type {import('./type').Foo} */
+export const foo: import('./type').Foo;
